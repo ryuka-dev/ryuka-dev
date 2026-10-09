@@ -14,7 +14,7 @@ I build mods and server-side systems for games: Minecraft (Forge 1.20.1, Java) a
 
 SULFUR is single-player only. This mod adds host-authoritative co-op on top of it: shared level seeds, scene transitions, enemies and bosses run by the host, a downed-and-revive flow. Players connect through Steam invites or direct IP from an in-game menu. All of the hooks into the game came from reading its decompiled code.
 
-281 C# files · 14 languages · 4,490 downloads · [source](https://github.com/ryuka-dev/SULFUR-Together)
+281 C# files · 14 languages · 4,493 downloads · [source](https://github.com/ryuka-dev/SULFUR-Together)
 
 ### SULFUR Native UI Lib: settings pages inside the game's own menu
 
@@ -22,7 +22,7 @@ SULFUR is single-player only. This mod adds host-authoritative co-op on top of i
 
 A library that lets other mods add their own pages to the game's Options screen, using the game's own row styles. Rows update in place, so the page doesn't rebuild when a value changes. If the game font is missing CJK or symbol glyphs, it falls back to another font. SULFUR Together, SULFUR Config and another author's chat mod all depend on it.
 
-4,437 downloads · [source](https://github.com/ryuka-dev/SULFUR-Native-UI-Lib)
+4,439 downloads · [source](https://github.com/ryuka-dev/SULFUR-Native-UI-Lib)
 
 ### Minecraft: patched forks for a modded Forge 1.20.1 server
 
@@ -50,7 +50,7 @@ An original boss in its own arena. It's reached through the game's own level gen
 
 As of 2026-10-09:
 
-- 27 SULFUR mods on [Thunderstore](https://thunderstore.io/c/sulfur/p/ryuka_labs/), 31,461 downloads
+- 27 SULFUR mods on [Thunderstore](https://thunderstore.io/c/sulfur/p/ryuka_labs/), 31,479 downloads
 - 25 of the 32 non-deprecated mods in SULFUR's Thunderstore community are mine
 - Mods localized into 14 languages
 
