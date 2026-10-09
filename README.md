@@ -10,7 +10,7 @@ I build mods and server-side systems for games: Minecraft (Forge 1.20.1, Java) a
 
 ### SULFUR Together: co-op for a single-player game
 
-<!-- ![Two players in the same run: one goes down, the other revives them](assets/sulfur-together.gif) -->
+![Two players in the same run: one goes down, the other revives them](assets/sulfur-together.gif)
 
 SULFUR is single-player only. This mod adds host-authoritative co-op on top of it: shared level seeds, scene transitions, enemies and bosses run by the host, a downed-and-revive flow. Players connect through Steam invites or direct IP from an in-game menu. All of the hooks into the game came from reading its decompiled code.
 
@@ -18,7 +18,7 @@ SULFUR is single-player only. This mod adds host-authoritative co-op on top of i
 
 ### SULFUR Native UI Lib: settings pages inside the game's own menu
 
-<!-- ![A mod's settings page inside SULFUR's Options screen, with a value changing live](assets/native-ui-lib.gif) -->
+![A mod's settings page inside SULFUR's Options screen](assets/native-ui-lib.gif)
 
 A library that lets other mods add their own pages to the game's Options screen, using the game's own row styles. Rows update in place, so the page doesn't rebuild when a value changes. If the game font is missing CJK or symbol glyphs, it falls back to another font. SULFUR Together, SULFUR Config and another author's chat mod all depend on it.
 
@@ -26,7 +26,7 @@ A library that lets other mods add their own pages to the game's Options screen,
 
 ### Minecraft: patched forks for a modded Forge 1.20.1 server
 
-<!-- ![Gun HUD showing both usable weapon slots and their ammo](assets/minecraft-forks.gif) -->
+![Gun HUD showing both usable weapon slots and their ammo](assets/minecraft-forks.gif)
 
 I maintain forks of TaCZ, AutoModpack and LesRaisins Tactical for a modded server. Some of the changes:
 
@@ -38,7 +38,7 @@ Every jar sent to players has a tag with its full source. [Decade-Open](https://
 
 ### False Gods: a custom boss that also works in multiplayer
 
-<!-- ![Portal opens after the cave boss; the player walks through into the arena](assets/false-gods.gif) -->
+![Portal opens after the cave boss; the player walks through](assets/false-gods.gif)
 
 An original boss in its own arena. It's reached through the game's own level generation, so navigation, spawning and fog work natively. It runs in single-player, or host-authoritative on top of SULFUR Together. I built the arena in Blender and Unity and ship it as an AssetBundle. Vanilla materials are loaded from the player's own install at runtime and never redistributed.
 
